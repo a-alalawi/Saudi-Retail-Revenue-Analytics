@@ -4,7 +4,7 @@
 
 > 80,000 transactions · 5 regions · 3-page dashboard · 15 DAX measures
 
-![download](https://github.com/user-attachments/assets/eacfc3fe-1dea-4207-8e36-406850be6514)
+![Image](https://github.com/user-attachments/assets/491f351f-52b8-4d7b-9e35-a5a6a86c3ef3)
 
 ---
 
@@ -26,7 +26,7 @@ The dataset is synthetic — generated from scratch in SQL Server to mirror docu
 ---
 ## Data Model
 
-<img width="1045" height="869" alt="Untitled" src="https://github.com/user-attachments/assets/90867f3c-8537-4649-ae37-f12ae6845132" />
+<img width="1045" height="869" alt="Image" src="https://github.com/user-attachments/assets/dd8100a9-d357-420d-866b-26ba88ba68b4" />
 
 Star schema. One fact table, five dimensions, all relationships many-to-one.
 
@@ -48,7 +48,7 @@ Star schema. One fact table, five dimensions, all relationships many-to-one.
 
 ### Page 1 — Executive Overview
 
-<img width="1937" height="1094" alt="page1-executive" src="https://github.com/user-attachments/assets/9fdeb667-fb64-48a1-9c6d-c26ee034a96f" />
+<img width="1937" height="1094" alt="Image" src="https://github.com/user-attachments/assets/03fbfa83-d330-4d61-b27a-d4006eff54ea" />
 
 The page opens with five KPI cards: Total Revenue (237.64M SAR), YoY Growth (49.0%), Gross Margin (18.0%), Transaction Count (80K), and Avg Order Value (2.97K SAR). Four slicers — Year, Quarter, Region, Category — sit below and filter everything on the page together.
 
@@ -62,7 +62,7 @@ The Payment Distribution donut uses a different color per payment method. The co
 
 ### Page 2 — Profitability and VAT
 
-<img width="1932" height="1092" alt="Screenshot 2026-03-11 102321" src="https://github.com/user-attachments/assets/1c46678f-549e-40c3-9955-55c263e9eb39" />
+<img width="1932" height="1092" alt="Image" src="https://github.com/user-attachments/assets/6e9481ab-fd05-4722-9428-a703e8a3203a" />
 
 The KPI cards shift from revenue to profit: Net Revenue (206.64M SAR), Profit YoY % (49.2%), Total Profit (37.17M SAR), Total VAT (31.00M SAR). The page is built for the "where does the money go" question.
 
@@ -77,7 +77,7 @@ The Digital Payment trend tracks monthly cashless penetration against a constant
 
 ### Page 3 — Seasonal Analysis
 
-<img width="1932" height="1093" alt="page3-seasonal" src="https://github.com/user-attachments/assets/87abedd4-871b-4df6-9cc8-07ee023cacf8" />
+<img width="1932" height="1093" alt="Image" src="https://github.com/user-attachments/assets/7831c5e8-f276-417c-a532-906040ce4bd7" />
 
 A season filter bar runs across the top of the page. Each button isolates one retail season and all three visuals update together — the bar chart, the sub-category ranking, and the heatmap all respond to the same selection. The bars in the chart match the button colors so the reader always knows which filter is active without checking the slicer state.
 
